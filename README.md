@@ -5,7 +5,7 @@
 - `python kernel_kmeans.py`  
 - `python spectral_clustering.py`  
 
-Note that ideally, one performs clustering on real world datasets. This was the objective here too. And hence, a dataset was downloaded - the <a href="http://archive.ics.uci.edu/ml/datasets/image+segmentation"> `UCI ML Image Segmentation Data Set` and <a href=""></a>. It has a few features and hence can be plotted and visualized. But the problem was that there were no clear cut clusters based on the class labels. Another problem was that there was a large number of class labels. Hence for understanding clustering algorithms, I decided to create `blobs` using scikit-learn and then cluster them - each blob as a cluster - ideally.
+Note that ideally, one performs clustering on real world datasets. This was the objective here too. And hence, a dataset was downloaded - the <a href="http://archive.ics.uci.edu/ml/datasets/image+segmentation"> `UCI ML Image Segmentation Data Set` <a href=""></a>. It has a few features and hence can be plotted and visualized. But the problem was that there were no clear cut clusters based on the class labels. Another problem was that there was a large number of class labels. Hence for understanding clustering algorithms, I decided to create `blobs` using scikit-learn and then cluster them - each blob as a cluster - ideally.
 
 ### **Agglomerative Clustering** 
 
